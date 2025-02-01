@@ -1,0 +1,28 @@
+/* ==UserStyle==
+@name Style.me custom CSS background
+@namespace start.me
+@homepageURL https://github.com/jake-carpenter/userstyles
+@version 0.1.0
+@updateURL https://raw.githubusercontent.com/jake-carpenter/userstyles/refs/heads/main/start.me/start-me_background.css
+@description Apply a custom CSS background to Start.me.
+@author Jake Carpenter
+@license MIT
+==/UserStyle== */
+
+span.app__color-layer {
+  background-image: repeating-linear-gradient(
+      135deg,
+      rgba(4, 229, 71, 0.08) 0px,
+      rgba(4, 229, 71, 0.08) 1px,
+      transparent 1px,
+      transparent 9px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      rgba(4, 229, 71, 0.08) 0px,
+      rgba(4, 229, 71, 0.08) 1px,
+      transparent 1px,
+      transparent 9px
+    ),
+    linear-gradient(90deg, rgb(77, 18, 84), rgb(29, 93, 108));
+}

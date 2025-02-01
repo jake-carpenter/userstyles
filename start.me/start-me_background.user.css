@@ -9,6 +9,7 @@
 @license MIT
 ==/UserStyle== */
 
+@-moz-document url-prefix("https://start.me/p/") {
 span.app__color-layer {
   background-image: repeating-linear-gradient(
       135deg,
@@ -25,4 +26,5 @@ span.app__color-layer {
       transparent 9px
     ),
     linear-gradient(90deg, rgb(77, 18, 84), rgb(29, 93, 108));
+}
 }

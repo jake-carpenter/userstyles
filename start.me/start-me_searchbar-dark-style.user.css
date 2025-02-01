@@ -9,37 +9,39 @@
 @license MIT
 ==/UserStyle== */
 
-div.search__wrapper {
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 16px;
-
-  input:not([type]).search__input {
-    color: #fff;
-  }
-
-  .search__menu {
-    border: none;
-  }
-
-  .search__control-icon {
-    stroke: white;
-  }
-
-  .search-results {
+@-moz-document url-prefix("https://start.me/p/") {
+  div.search__wrapper {
     background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
 
-    li {
-      color: white;
-      background-color: rgba(0, 0, 0, 1);
+    input:not([type]).search__input {
+      color: #fff;
     }
 
-    li:hover {
-      background-color: #444;
+    .search__menu {
+      border: none;
+    }
+
+    .search__control-icon {
+      stroke: white;
+    }
+
+    .search-results {
+      background-color: rgba(0, 0, 0, 0.5);
+
+      li {
+        color: white;
+        background-color: rgba(0, 0, 0, 1);
+      }
+
+      li:hover {
+        background-color: #444;
+      }
     }
   }
-}
 
-input:not([type])::placeholder,
-input[type="text"]::placeholder {
-  color: #888;
+  input:not([type])::placeholder,
+  input[type="text"]::placeholder {
+    color: #888;
+  }
 }

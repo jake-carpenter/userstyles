@@ -2,7 +2,7 @@
 @name Start.me Stock widget customizations
 @namespace start.me
 @homepageURL https://github.com/jake-carpenter/userstyles
-@version 0.1.0
+@version 0.2.0
 @updateURL https://raw.githubusercontent.com/jake-carpenter/userstyles/refs/heads/main/start.me/start-me_stock-customizations.css
 @description Stock widget customizations for Start.me. Includes larger font size,
              removal of parenthesis in percentage change, and removal of last price,
@@ -12,6 +12,7 @@
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://start.me/p/") {
+
   .stock-row__last-price,
   .stock-row__prev-price,
   .header-row__last-price,
@@ -25,9 +26,13 @@
   }
 
   .stock-row__percentage-change {
-    font-weight: bold;
     font-family: 'no-parens';
     font-variant-numeric: tabular-nums;
+    color: #0eb30e;
+  }
+
+  .down .stock-row__percentage-change {
+    color: #ff6969 !important;
   }
 
   .stocks-list__body {
@@ -37,6 +42,12 @@
   .widget-header__share-toggler {
     display: none;
   }
+
+  .stock-row__percentage-change {
+    color: #0eb30e;
+  }
+
+
 }
 
 @font-face {

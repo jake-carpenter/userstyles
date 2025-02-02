@@ -2,8 +2,8 @@
 @name Start.me Stock widget customizations
 @namespace start.me
 @homepageURL https://github.com/jake-carpenter/userstyles
-@version 0.2.1
-@updateURL https://raw.githubusercontent.com/jake-carpenter/userstyles/refs/heads/main/start.me/start-me_stock-customizations.css
+@version 1.0.0
+@updateURL https://raw.githubusercontent.com/jake-carpenter/userstyles/refs/heads/main/start.me/start-me_stock-customizations.user.css
 @description Stock widget customizations for Start.me. Includes larger font size,
              removal of parenthesis in percentage change, and removal of last price,
              previous price, and absolute change columns.
@@ -32,6 +32,7 @@
   }
 
   .down .stock-row__percentage-change {
+    /* There's no getting around this */
     color: #ff6969 !important;
   }
 

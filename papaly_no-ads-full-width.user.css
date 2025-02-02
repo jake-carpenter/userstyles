@@ -1,19 +1,20 @@
 /* ==UserStyle==
-@name Jake Carpenter
+@name Papaly no ads full width
 @namespace papaly.com
 @homepageURL https://github.com/jake-carpenter/userstyles
 @version 0.1.0
 @updateURL https://raw.githubusercontent.com/jake-carpenter/userstyles/refs/heads/main/papaly_no-ads-full-width.css
-@description testing
+@description Removes ad container on papaly.com and expands to full-width.
 @author Jake Carpenter
 @license MIT
 ==/UserStyle== */
-@-moz-document domain("papaly.com") {
-    .board-ads-container-right {
-        display: none;
-    }
 
-    #main .board .cards-container {
-        width: 100% !important;
-    }
+@-moz-document domain("papaly.com") {
+  .board-ads-container-right {
+    display: none;
+  }
+
+  #main .board .cards-container {
+    width: 100% !important;
+  }
 }

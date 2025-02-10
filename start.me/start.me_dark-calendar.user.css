@@ -10,7 +10,8 @@
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://start.me/p/") {
-    .calendar-day__task_color_black {
+    .calendar-day__task_color_black,
+    .agenda-event__wrapper_color_black {
         color: #888;
     }
 }

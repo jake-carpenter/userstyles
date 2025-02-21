@@ -2,7 +2,7 @@
 @name Start.me Dark calendar fixes
 @namespace start.me
 @homepageURL https://github.com/jake-carpenter/userstyles
-@version 1.1.0
+@version 1.2.0
 @updateURL https://raw.githubusercontent.com/jake-carpenter/userstyles/refs/heads/main/start.me/start.me_dark-calendar.user.css
 @description Fixes some of Start.me Calendar widget colors when using dark mode.
 @author Jake Carpenter
@@ -10,8 +10,20 @@
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://start.me/p/") {
-    .calendar-day__task_color_black,
-    .agenda-event__wrapper_color_black {
-        color: #888;
+    .calendar-day__task_color_black {
+        color: #ddd;
+        font-size: 1.1em;
+    }
+
+    .calendar-day {
+        background-color: rgba(0, 0, 0, 0.25);
+    }
+
+    .agenda-event__info {
+        color: #ccc;
+    }
+
+    .agenda-event__wrapper_color_black .agenda-event__label {
+        color: #ddd;
     }
 }

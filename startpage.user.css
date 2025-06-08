@@ -1,0 +1,22 @@
+/* ==UserStyle==
+@name Startpage customizations
+@namespace startpage.com
+@homepageURL https://github.com/jake-carpenter/userstyles
+@version 0.0.1
+@updateURL https://raw.githubusercontent.com/jake-carpenter/userstyles/refs/heads/main/startpage.user.css
+@description Customizations for Startpage.com: more left margin
+@author Jake Carpenter
+@license MIT
+==/UserStyle== */
+
+@-moz-document domain("startpage.com") {
+  @media (min-width: 1280px) {
+    #main, .filters, .inline-nav {
+      margin-left: 300px;
+    }
+  
+    .header-inner-container {
+      margin: 0 0.5rem 0 160px;
+    }
+  }        
+}
